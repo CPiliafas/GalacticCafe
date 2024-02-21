@@ -25,7 +25,7 @@ header {
 }
 
 nav a{
-    margin: 0 2rem;
+    margin: 0 4rem;
     color: var(--textColor);
     text-decoration: none;
 }
@@ -64,19 +64,31 @@ h1 {
 
 .container {
     border: 3px solid #fff;
-    padding: 20px;
+    padding: 10px;
     height: 100%;
 }
 
 .float {
+    display: inline-grid;
     width: 50%;
     float: left;
-    padding: 30px;
+    padding: 20px;
     padding-top: 15px;
     border: 3px solid rgb(182, 114, 246);
     border-radius: 10px;
     text-align: center;
-}  
+}
+
+/* Float with No Border */
+.float1 {
+    display: inline-grid;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    padding-top: 15px;
+    text-align: center;
+}
+
 
 @media only screen and (max-width: 1024px){
     header .nav-btn {
