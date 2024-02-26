@@ -47,8 +47,8 @@ header .nav-btn {
 }
 
 footer {
-    position: fixed;
-    margin-top: 100vh;
+    position: relative;
+    margin-top: 10%;
     background-color: var(--mainColor);
     bottom: 0;
     left: 0;
@@ -65,17 +65,26 @@ h1 {
 
 .container {
     height: 100%;
-    position: relative;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.container2 {
+    height: 100%;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .float {
-    position: relative;
     display: inline-grid;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     width: 40%;
     float: left;
     padding: 20px;
@@ -87,28 +96,27 @@ h1 {
     background-color:#dabbf1;
     border-radius: 20px;
     text-align: center;
-    justify-content: center;
 }
 
 /* Float with No Border */
 .float1 {
-    position: relative;
     display: inline-grid;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
+    height: 100%;
+    width: 60%;
     float: left;
-    padding: 20px;
-    padding-top: 35px;
-    padding-bottom: 10px;
-    margin-right: 30px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 20px;
     text-align: center;
 }
 
 /* Paragraph float with No Border */
 .float2 {
     position: relative;
-    display: inline-grid;
+    /* display: inline-grid; */
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 80%;
@@ -121,8 +129,28 @@ h1 {
     font-size: 25px;
 }
 
+/* For the coffee, tea, and cookie floats */
+.float3 {
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    float: left;
+    padding: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: 60px;
+    border: 3px solid rgb(182, 114, 246);
+    background-color:#dabbf1;
+    border-radius: 20px;
+    text-align: center;
+}
+
 /* Section */
 .section {
+    height: 30%;
     width: 100%;
     float: left;
     padding: 20px;
@@ -134,6 +162,12 @@ h1 {
 
 body {
     background-color:#b7ef93;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 @media only screen and (max-width: 1024px){
