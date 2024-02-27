@@ -9,6 +9,8 @@ import { IoPlanetSharp } from "react-icons/io5";
 import cappucino from './Assets/cappuccino.png';
 import cookie from './Assets/cookie.png';
 import tea from './Assets/tea.png';
+import {FaFacebook, FaInstagram, FaYelp} from 'react-icons/fa';
+ 
 
 function App() {
   return (
@@ -70,10 +72,35 @@ function App() {
         <p>Our sugar cookies are out of this world!</p>
       </div>
     </div>
-
-    <div class="section">
+    <div class="container2">
+    <div class="float">
       <h2>Contact Us!</h2>
       <ul>Phone Number: (231) XXXX-XXX</ul>
+      <ul>Email: galacticcafe@gmail.com</ul>
+      <div class="float4">
+      <FaFacebook size="70px" align-items="center" justify-content="center" display="flex" color=""/>
+      <FaInstagram size="70px" align-items="center" justify-content="center" display="flex"/>
+      <FaYelp size="70px" align-items="center" justify-content="center" display="flex"/>
+      </div>
+    </div>
+    <div class="float">
+      <h2>Have Feedback? We'd Love To Hear It!</h2>
+      <form>
+      <label>
+      <p>Name</p>
+      <input name="name" />
+      </label>
+      <label>
+        <p>Email</p>
+        <input email="email" />
+      </label>
+      <label>
+        <p>Comments</p>
+        <textarea id="comments" name="comments" rows="4" cols="50"/>
+      </label>
+      <button type="submit">Submit</button>
+      </form>
+    </div>
     </div>
     </body>
       <Footer/>
