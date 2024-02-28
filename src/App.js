@@ -60,15 +60,15 @@ function App() {
     <h2>Try Some of our Fan Favorites!</h2>
     <div class="container2">
       <div class="float3" >
-      <img src={cappucino} justify-content="center" align-items="center" display="flex"></img>
+      <img src={cappucino} id="cappucino" justify-content="center" align-items="center" display="flex"></img>
       <p>Our Cappucinos come with wonderfully crafted foam art!</p>
       </div>
       <div class="float3">
-      <img src={tea} height="300px" width="300px" justify-content="center" align-items="center" display="flex" ></img>
+      <img src={tea}  id="tea" height="300px" width="300px" justify-content="center" align-items="center" display="flex" ></img>
       <p>Our Tea, hot and iced, come in pretty colors with great taste!</p>
       </div>
       <div class="float3">
-        <img src={cookie} height="300px" width="300px" justify-content="center" align-items="center" display="flex"></img>
+        <img src={cookie} id="cookie" height="300px" width="300px" justify-content="center" align-items="center" display="flex"></img>
         <p>Our sugar cookies are out of this world!</p>
       </div>
     </div>
@@ -78,13 +78,13 @@ function App() {
       <ul>Phone Number: (231) XXXX-XXX</ul>
       <ul>Email: galacticcafe@gmail.com</ul>
       <div class="float4">
-      <FaFacebook size="70px" align-items="center" justify-content="center" display="flex" color=""/>
-      <FaInstagram size="70px" align-items="center" justify-content="center" display="flex"/>
-      <FaYelp size="70px" align-items="center" justify-content="center" display="flex"/>
+      <FaFacebook class="icon" size="70px" align-items="center" justify-content="center" display="flex" color=""/>
+      <FaInstagram class="icon" size="70px" align-items="center" justify-content="center" display="flex"/>
+      <FaYelp class="icon" size="70px" align-items="center" justify-content="center" display="flex"/>
       </div>
     </div>
-    <div class="float">
-      <h2>Have Feedback? We'd Love To Hear It!</h2>
+    <div class="float5">
+    <h2>Have Feedback? We'd Love To Hear It!</h2>
       <form>
       <label>
       <p>Name</p>

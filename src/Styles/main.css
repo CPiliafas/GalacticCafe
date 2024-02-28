@@ -154,6 +154,19 @@ h1 {
     margin-right: 60px;
     text-align: center;
 }
+/* Float for Feedback Form */ 
+.float5 {
+    border: 3px solid rgb(182, 114, 246);
+    background-color:#dabbf1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: left; 
+    width: 40%;
+    float:inline-start;
+    padding-left: 15px;
+    text-align: left;
+}
 
 body {
     background-color:#b7ef93;
@@ -211,21 +224,120 @@ h2 {
         font-size: 1.5rem;
     }
 
+    h2{
+        font-size: 20px; 
+    }
+
+    .container{    
+        height: 100%;
+        padding: 30px;
+        margin-left: 120px;
+        width: 600px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+
+    .float{
+        width: 35%;
+        padding: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        margin-left: 35px;
+        margin-right: 20px;
+        border: 4px solid rgb(182, 114, 246);
+        border-radius: 15px;
+    } 
+
+    .float1{
+        display: inline-grid;
+        height: 10%;
+        width: 110%;
+        float: left;
+        padding: 5px;
+        padding-bottom: 5px;
+        margin-right: 3px;
+    }
+
+    .container2{
+        height: 30%;
+        padding: 5px;
+        width: 100%;
+    }
+
+    /* Paragraph float with No Border */
+    .float2 {
+        width: 90%;
+        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 15px;
+        text-align: center;
+        font-size: 21px;
+    }
+
+    /* For the coffee, tea, and cookie floats */
+    .float3 {
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-right: 20px;
+        border: 4px solid rgb(182, 114, 246);
+        background-color:#dabbf1;
+        border-radius: 30px;
+    }
+
+    /* Code for styling the images on a smaller screen */
+    #cappucino{
+        height: 200px;
+        width: 200px;
+    }
+
+    #tea {
+        height: 200px;
+        width: 200px;
+    }
+
+    #cookie {
+        height: 200px;
+        width: 200px;
+    }
+
+    #icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .float5 {
+        border: 3px solid rgb(182, 114, 246);
+        border-radius: 10px; 
+        width: 70%;
+        padding-left: 5px;
+        padding-top: 5px;
+        margin-top: 15px;
+        margin-right: 20px;
+        display: inline-grid;
+    }
+
+    form{
+        width: 30%;
+    }
+
     footer {
-        position: fixed;
+        position: relative;
+        margin-top: 10%;
         background-color: var(--mainColor);
-        height: 5%;
-        width: 5%;
-        bottom: 0;
+        margin-right: 100vh;
         left: 0;
         right: 0;
+        padding: 6px;
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.5rem;
         color: white;
+        height: 5%;
+        width: 100%;
     }
 
     
