@@ -4,6 +4,7 @@ import Navbar from './Components/navbar.js';
 import Footer from './Components/footer.js';
 import coffee from './Assets/coffee.jpg';
 import BasicButtons from './Components/Button.js';
+import SubmitButton from './Components/submitbtn.js';
 import cafe from './Assets/cafe.jpg';
 import { IoPlanetSharp } from "react-icons/io5";
 import cappucino from './Assets/cappuccino.png';
@@ -16,7 +17,8 @@ function App() {
   return (
     <React.Fragment>
       <Navbar/>
-      <img src={coffee} alt="Coffee" position="relative;" display="flex;" flex-direction="row;" object-fit="cover;" align-items="center;" height="375px;" width="100%;"/>
+      <div class="container3">
+      </div>
       <body>
       <h1>We Serve Out Of This World Coffee, Tea, and Baked Sweets!</h1>
       <div class="container">
@@ -78,9 +80,9 @@ function App() {
       <ul>Phone Number: (231) XXXX-XXX</ul>
       <ul>Email: galacticcafe@gmail.com</ul>
       <div class="float4">
-      <FaFacebook class="icon" size="70px" align-items="center" justify-content="center" display="flex" color=""/>
-      <FaInstagram class="icon" size="70px" align-items="center" justify-content="center" display="flex"/>
-      <FaYelp class="icon" size="70px" align-items="center" justify-content="center" display="flex"/>
+      <FaFacebook href="#" class="icon" size="70px" align-items="center" justify-content="center" display="flex" color=""/>
+      <FaInstagram href="#" class="icon" size="70px" align-items="center" justify-content="center" display="flex"/>
+      <FaYelp href="#" class="icon" size="70px" align-items="center" justify-content="center" display="flex"/>
       </div>
     </div>
     <div class="float5">
@@ -98,8 +100,8 @@ function App() {
         <p>Comments</p>
         <textarea id="comments" name="comments" rows="4" cols="50"/>
       </label>
-      <button type="submit">Submit</button>
       </form>
+      <SubmitButton />
     </div>
     </div>
     </body>

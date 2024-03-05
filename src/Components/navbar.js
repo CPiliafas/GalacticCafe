@@ -19,6 +19,7 @@ function Navbar() {
                     left: '3px',
                 }}
                 size="40px"
+                margin-left="1px"
             />
             <nav ref={navRef}>
                 <a href="#">Home</a>

@@ -18,14 +18,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     padding: 0 2rem;
+    padding-bottom: 3px;
     background-color: var(--mainColor);
     color: var(--textColor);
+    font-size: 18px;
 }
 
 nav a{
-    margin: 0 4rem;
+    margin: 0 5rem;
+    padding-left: 3px;
     color: var(--textColor);
     text-decoration: none;
 }
@@ -48,7 +51,7 @@ header .nav-btn {
 
 footer {
     position: relative;
-    margin-top: 10%;
+    margin-top: 3%;
     background-color: var(--mainColor);
     bottom: 0;
     left: 0;
@@ -59,6 +62,17 @@ footer {
 }
 
 h1 {
+    text-align: center;
+    font-size: 3.0rem;
+}
+
+body {
+    background-color:#eddeff;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
     text-align: center;
     font-size: 2.0rem;
 }
@@ -73,12 +87,24 @@ h1 {
 }
 
 .container2 {
-    height: 100%;
-    padding: 20px;
+    height: 20%;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.container3 {
+    background-size: cover;
+    background-image: url("../Assets/coffee.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 375px;
+    width: 100%;
 }
 
 .float {
@@ -151,7 +177,7 @@ h1 {
     align-items: center; 
     width: 100%;
     float: left;
-    margin-right: 60px;
+    margin-right: 50px;
     text-align: center;
 }
 /* Float for Feedback Form */ 
@@ -159,23 +185,26 @@ h1 {
     border: 3px solid rgb(182, 114, 246);
     background-color:#dabbf1;
     border-radius: 20px;
-    display: flex;
+    display: inline-grid;
     justify-content: left;
     align-items: left; 
     width: 40%;
+    padding-bottom: 5px;
     float:inline-start;
     padding-left: 15px;
     text-align: left;
 }
 
-body {
-    background-color:#b7ef93;
-    justify-content: center;
-    align-items: center;
-}
-
-h2 {
-    text-align: center;
+#button {
+    border: 3px solid #000000;
+    background-color: rgb(182, 114, 246);
+    align-items: center; 
+    justify-content: center; 
+    display: flex; 
+    padding-top: 10px;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
 }
 
 /* CSS Code for Form */
@@ -185,6 +214,11 @@ h2 {
 
 .wrapper fieldset {
     margin: 20px 0;
+}
+
+/* For hovering over Fa Icons */
+.icon:hover {
+    color: rgb(178, 168, 168);
 }
 
 
@@ -261,9 +295,10 @@ h2 {
     }
 
     .container2{
-        height: 30%;
+        height: 50%;
         padding: 5px;
         width: 100%;
+        margin-top: 30px;
     }
 
     /* Paragraph float with No Border */
@@ -317,6 +352,7 @@ h2 {
         width: 70%;
         padding-left: 5px;
         padding-top: 5px;
+        padding-bottom: 10px;
         margin-top: 15px;
         margin-right: 20px;
         display: inline-grid;
@@ -328,7 +364,7 @@ h2 {
 
     footer {
         position: relative;
-        margin-top: 10%;
+        margin-top: 5%;
         background-color: var(--mainColor);
         margin-right: 100vh;
         left: 0;
@@ -342,3 +378,34 @@ h2 {
 
     
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .container {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+   .float {
+        width: 100%;
+   } 
+
+   .float2 {
+    width: 100%;
+    }
+    
+    .float3 {
+        width: 100%;
+   }
+
+    .float4 {
+    width: 100%;
+   }
+   
+   .float5 {
+    width: 100%;
+   } 
+  }
