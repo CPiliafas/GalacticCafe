@@ -23,7 +23,7 @@ function App() {
       <h1>We Serve Out Of This World Coffee, Tea, and Baked Sweets!</h1>
       <div class="container">
       <div class="float1">
-          <h2>In Business since 2011</h2>
+          <h2>In Business Since 2011</h2>
           <p>Starting small, our team has been dedicated to growing our business as we strive towards continued improvement.</p>
           <p>Click the button below to enter your email for updates, offers, and digital coupons to save money on your next purchase!</p>
       </div>
@@ -39,11 +39,11 @@ function App() {
   
        <div class="float">
           <h2>Our Values</h2>
-          <p>High quality products</p>
-          <p>Environmentally friendly</p>
-          <p>Excellent client service</p>
-          <p>Unique cafe atmosphere</p>
-          <p>Clean and safe environment</p>
+          <ul>☆ High Quality Products ☆</ul>
+          <ul>☆ Environmentally Friendly ☆</ul>
+          <ul>☆ Excellent Client Service ☆</ul>
+          <ul>☆ Unique Cafe Atmosphere ☆</ul>
+          <ul>☆ Clean And Safe Environment ☆</ul>
       </div>
     </div>
 
@@ -59,26 +59,23 @@ function App() {
       </div> 
     </div>
 
-    <h2>Try Some of our Fan Favorites!</h2>
+    <h2>Try Some Of Our Fan Favorites!</h2>
     <div class="container2">
       <div class="float3" >
       <img src={cappucino} id="cappucino" justify-content="center" align-items="center" display="flex"></img>
-      <p>Our Cappucinos come with wonderfully crafted foam art!</p>
       </div>
       <div class="float3">
       <img src={tea}  id="tea" height="300px" width="300px" justify-content="center" align-items="center" display="flex" ></img>
-      <p>Our Tea, hot and iced, come in pretty colors with great taste!</p>
       </div>
       <div class="float3">
         <img src={cookie} id="cookie" height="300px" width="300px" justify-content="center" align-items="center" display="flex"></img>
-        <p>Our sugar cookies are out of this world!</p>
       </div>
     </div>
     <div class="container2">
     <div class="float">
       <h2>Contact Us!</h2>
-      <ul>Phone Number: (231) XXXX-XXX</ul>
-      <ul>Email: galacticcafe@gmail.com</ul>
+      <ul padding-top="6px">Phone Number: (231) XXXX-XXX</ul>
+      <ul padding-top="6px">Email: galacticcafe@gmail.com</ul>
       <div class="float4">
       <FaFacebook href="#" class="icon" size="70px" align-items="center" justify-content="center" display="flex" color=""/>
       <FaInstagram href="#" class="icon" size="70px" align-items="center" justify-content="center" display="flex"/>
@@ -86,7 +83,7 @@ function App() {
       </div>
     </div>
     <div class="float5">
-    <h2>Have Feedback? We'd Love To Hear It!</h2>
+    <h2 text-align="center">Have Feedback? We'd Love To Hear It!</h2>
       <form>
       <label>
       <p>Name</p>

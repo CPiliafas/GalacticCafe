@@ -12,15 +12,16 @@ function Navbar() {
 
     return(
         <header>
-            <h3>Galactic Cafe</h3>
-            <IoPlanetSharp 
+            <h3>Galactic Cafe <IoPlanetSharp 
+            
                 style={{
-                    top: '10px',
+                    top: '2px',
                     left: '3px',
                 }}
-                size="40px"
-                margin-left="1px"
-            />
+                size="30px"
+                margin-top="10px"
+                padding-top='10px'
+            /></h3>
             <nav ref={navRef}>
                 <a href="#">Home</a>
                 <a href="#">Our Mission</a>
