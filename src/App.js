@@ -17,7 +17,7 @@ function App() {
   return (
     <React.Fragment>
       <Navbar/>
-      <div class="container3">
+      <div class="container3" alt="image of coffee being poured into glasses from a machine">
       </div>
       <body>
       <h1>We Serve Out Of This World Coffee, Tea, and Baked Sweets!</h1>
@@ -62,13 +62,13 @@ function App() {
     <h2>Try Some Of Our Fan Favorites!</h2>
     <div class="container2">
       <div class="float3" >
-      <img src={cappucino} id="cappucino" justify-content="center" align-items="center" display="flex"></img>
+      <img src={cappucino} alt="cappucino with latte art showing a planet and stars" id="cappucino" justify-content="center" align-items="center" display="flex"></img>
       </div>
       <div class="float3">
-      <img src={tea}  id="tea" height="300px" width="300px" justify-content="center" align-items="center" display="flex" ></img>
+      <img src={tea} alt="a mug of tea with a blue and purple color to the drink" id="tea" height="300px" width="300px" justify-content="center" align-items="center" display="flex" ></img>
       </div>
       <div class="float3">
-        <img src={cookie} id="cookie" height="300px" width="300px" justify-content="center" align-items="center" display="flex"></img>
+        <img src={cookie} id="cookie" alt="a sugar cookie with sprinkles that resemble stars" height="300px" width="300px" justify-content="center" align-items="center" display="flex"></img>
       </div>
     </div>
     <div class="container2">
